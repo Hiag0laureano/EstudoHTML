@@ -17,9 +17,9 @@ header {
   /* Aplicar imagem de fundo ao cabeçalho */
   background-image: url("../img/fundo8.jpg");
   /* Ajustar o tamanho da imagem de fundo */
-  background-size: 100% cover;
+  background-size: 100%;
   /* Alterar a posição vertical da imagem */
-  background-position-y: -490px;
+  background-position-y: -630px;
   color: rgb(252, 232, 201);
   padding: 130px;
   text-align: center;
@@ -51,4 +51,48 @@ nav ul li a {
   font-size: 17pt;
   /* tirar o sublinhado */
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: rgb(252, 226, 188);
+  /* Permitir com que o rodapé fique com seu conteúdo flexível */
+  display: flex;
+  /* Dispor o conteudo em linha */
+  flex-direction: row;
+  /* AJustar o conteúdo com justify-content: e Align_Itens; */
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+#endereco {
+  font-family: arial;
+  font-size: 14pt;
+  color: black;
+  width: 300px;
+  text-align: center;
+}
+
+#redes {
+  position: absolute;
+  right: 50px;
+}
+
+#redes ul {
+  /* Retirar as bolinhas de marcação */
+  list-style: none;
+}
+
+/*Vamos dispor as imagens das redes em linhas com display inline_block */
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#redes ul li a img {
+  width: 45px;
+  height: 45px;
 }
