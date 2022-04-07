@@ -133,8 +133,7 @@ main p {
 }
 #imghome img:hover {
   opacity: 1;
-  /* width: 400px;
-  height: 400px; */
   transform: scale(1.2);
+}
 
 /* ================== FIm da formatação css para o home ============================== */
