@@ -234,6 +234,7 @@ h6 {
   background-color: black;
   color: white;
   cursor: pointer;
+  border-radius: 20px;
 }
 h2 {
   color: white;
