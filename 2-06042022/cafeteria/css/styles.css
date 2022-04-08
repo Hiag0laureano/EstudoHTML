@@ -178,13 +178,14 @@ h3 {
   font-family: verdana;
   color: rgb(190, 127, 10);
   margin: 30px;
+  text-shadow: 2px 2px 5px black;
 }
 #linha {
   display: flex;
   flex-direction: row;
   /* Realizar a quebra de linha para os demais produtos que forem adicionados*/
   flex-wrap: wrap;
-  background-color: darkslategray;
+  background-color: burlywood;
 }
 #linha #produto {
   width: 40%;
@@ -228,9 +229,13 @@ h6 {
   margin-left: auto;
 }
 #linha #produto:hover {
-  background-color: darkslategray;
+  background-color: black;
   color: white;
   cursor: pointer;
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
 
 /* ==================Fim dos estilos para o cardápio ====================*/
