@@ -55,6 +55,7 @@ nav ul li a {
 
 main {
   padding: 20px;
+  background-image: url("https://img.elo7.com.br/product/zoom/17055BE/papel-de-parede-casual-cafeteria-41-adesivos-decorativos-de-parede-casual.jpg");
 }
 footer {
   background-color: rgb(252, 226, 188);
@@ -166,5 +167,70 @@ main p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 /* ================== FIm  da pagina historia ==============================*/
+
+/* ================== Incio dos estilos para o cardápio ====================*/
+
+h3 {
+  /* Converter as letras para maiúsculo */
+  text-transform: uppercase; /*UpperCase-> deixa as letras maiusculas*/
+  font-size: 20pt;
+  font-family: verdana;
+  color: rgb(190, 127, 10);
+  margin: 30px;
+}
+#linha {
+  display: flex;
+  flex-direction: row;
+  /* Realizar a quebra de linha para os demais produtos que forem adicionados*/
+  flex-wrap: wrap;
+  background-color: darkslategray;
+}
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  /* Determinar que o conteudo do produto será flexiviel */
+  display: flex;
+  flex-direction: row;
+  margin-right: 125px;
+  margin-bottom: 90px;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 28px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #imgprod img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+h4 {
+  font-family: verdana;
+  font-size: 20pt;
+  margin-right: 10px;
+}
+h5 {
+  font-family: "Lucida Sans";
+  font-weight: lighter;
+  font-size: 10pt;
+  color: gray;
+}
+h6 {
+  font-family: "Lucida Sans";
+  color: darkred;
+  font-size: 20pt;
+  margin: 30px;
+  margin-left: auto;
+}
+#linha #produto:hover {
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+}
+
+/* ==================Fim dos estilos para o cardápio ====================*/
