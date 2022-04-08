@@ -115,6 +115,8 @@ main p {
   font-family: "Lucida Sans";
   font-size: 12pt;
   line-height: 24px;
+  background-color: burlywood;
+  border-radius: 10px;
 }
 
 #imghome {
@@ -127,7 +129,6 @@ main p {
   /* arredondar os cantos da imagem*/
   border-radius: 300px;
   /* vamos deixar as imagens um pouco apcas*/
-  opacity: 0.6;
   margin: 30px;
   /* efeito de transição. Isso fará com que a imagem tenha uma animação quando o mouse passar por ela */
   transition: ease 1s;
@@ -186,6 +187,7 @@ h3 {
   /* Realizar a quebra de linha para os demais produtos que forem adicionados*/
   flex-wrap: wrap;
   background-color: burlywood;
+  border-radius: 60px;
 }
 #linha #produto {
   width: 40%;
@@ -238,4 +240,17 @@ h2 {
   text-shadow: 2px 2px 5px black;
 }
 
-/* ==================Fim dos estilos para o cardápio ====================*/
+/* ================== Fim dos estilos para o cardápio ====================*/
+
+/* ================== Incio do estilo do mapa =========================== */
+
+#mapa {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+/* ================== Fim do estilo do mapa =========================== */
